@@ -3,10 +3,10 @@
 
 int calcularSomatorio(int numero){
 	if(numero == 1){
-    	return 1;
+    		return 1;
 	}
 	else {
-    	return ((2*numero)-1) + calcularSomatorio(numero-1);
+    		return ((2*numero)-1) + calcularSomatorio(numero-1);
 	}
 }
 
